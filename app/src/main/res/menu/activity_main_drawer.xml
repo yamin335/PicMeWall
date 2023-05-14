@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/our_facebook_page"
+            android:title="Our Facebook Page" />
+        <item
+            android:id="@+id/talk_to_us"
+            android:title="Talk to Us" />
+    </group>
+
+    <item android:title="OTHERS">
+        <menu>
+            <item
+                android:id="@+id/about_us"
+                android:title="About Us" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,71 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    ext.androidGradlePlugin = '7.0.3'
+    ext.arch_navigation = "1.0.0"
+    ext.hilt_version = "2.28-alpha"
+    ext.navigation = "2.3.2"
+    ext.kotlin = "1.4.21"
+
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:$androidGradlePlugin"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin"
+//        classpath "android.arch.navigation:navigation-safe-args-gradle-plugin:$arch_navigation"
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$navigation"
+        classpath "com.google.dagger:hilt-android-gradle-plugin:$hilt_version"
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://maven.google.com' }
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+// Define versions in a single place
+ext {
+    activity_version = "1.2.0-rc01"
+    appcompat = "1.2.0"
+    atst_junit = "1.1.2"
+    buildToolsVersion = "29.0.3"
+    constraint_layout = "2.0.4"
+    core_ktx = "1.3.2"
+    coroutines = "1.3.9"
+    coroutines_core = "1.3.9"
+    dagger = "2.24"
+    espresso_core = "3.3.0"
+    fragment = "1.3.0-rc01"
+    glide = '4.11.0'
+    gson = "2.8.6"
+    hiltAndroidXVersion = '1.0.0-alpha02'
+    image_cropper = '2.8.0'
+    junit = "4.13.1"
+    legacy = "1.0.0"
+    lifecycle = "2.2.0"
+    minSdkVersion = 21
+    material = "1.3.0-beta01"
+    mpAndroidChart = "v3.1.0"
+    okhttp3 = "4.9.0"
+    paging = "2.1.2"
+    recyclerview = "1.1.0"
+    retrofit = "2.9.0"
+    room = "2.2.6"
+    support_annotations = '1.2.0-alpha01'
+    targetSdkVersion = 29
+    timberVersion = '4.7.1'
+    versionCode = 1
+    versionName = "1.0.0"
+}

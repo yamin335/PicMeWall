@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.AnilFurkanOkcun:UWMediaPicker-Android:1.3.2@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/281d33407f560c05728a637dc4c05a4a/transformed/jetified-UWMediaPicker-Android-1.3.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/281d33407f560c05728a637dc4c05a4a/transformed/jetified-UWMediaPicker-Android-1.3.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/281d33407f560c05728a637dc4c05a4a/transformed/jetified-UWMediaPicker-Android-1.3.2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.AnilFurkanOkcun/UWMediaPicker-Android/1.3.2/e005d67aa7224e9ad4a233d8ba1674e1587413be/UWMediaPicker-Android-1.3.2-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.AnilFurkanOkcun/UWMediaPicker-Android/1.3.2/e005d67aa7224e9ad4a233d8ba1674e1587413be/UWMediaPicker-Android-1.3.2-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.AnilFurkanOkcun/UWMediaPicker-Android/1.3.2/e005d67aa7224e9ad4a233d8ba1674e1587413be/UWMediaPicker-Android-1.3.2-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.AnilFurkanOkcun/UWMediaPicker-Android/1.3.2/e005d67aa7224e9ad4a233d8ba1674e1587413be/UWMediaPicker-Android-1.3.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

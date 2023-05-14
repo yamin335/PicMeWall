@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PicMeWall.iml" filepath="$PROJECT_DIR$/.idea/modules/PicMeWall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PicMeWall.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PicMeWall.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PicMeWall.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PicMeWall.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PicMeWall.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PicMeWall.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PicMeWall.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PicMeWall.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

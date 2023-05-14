@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PicMeWall</string>
+    <string name="dashboard_heading">PicMeWall Provide High Quality \nPrinted Photo Frame That \nStick &amp; Re-Stick</string>
+    <string name="dash_text1">Each frame only 2.5$</string>
+    <string name="dash_text2">Keep your memories alive with us</string>
+    <string name="dash_text3">"Minimum order 3 Pcs \nOne perfect size \n8” by 8” "</string>
+    <string name="dash_text4">They’re removable and leave no mark</string>
+    <string name="dash_text5">One perfect size</string>
+    <string name="dash_text6">Frames are 8\" by 8\". They\'re removable, reusable and leave no marks.</string>
+    <string name="dash_text7">4.7 Stars, 5000 Play Store Reviews</string>
+    <string name="dash_text8">Bring Your Walls Alive</string>
+    <string name="dash_text9">Select Your Favorite Photos</string>
+    <string name="dash_text10">Adjust, Crop And Submit</string>
+    <string name="dash_text11">No Nails, No Drills for Hanging</string>
+    <string name="dash_text12">Light Weight And No Glass Use</string>
+    <string name="dash_text13">High Quality Coating Use To</string>
+    <string name="dash_text14">Protect from Light &amp; Moisture</string>
+    <string name="spade_symbol">♠</string>
+    <string name="processing">Processing…</string>
+    <string name="delivery_within_3_to_5_days">Delivery within 3 to 5 days</string>
+</resources>

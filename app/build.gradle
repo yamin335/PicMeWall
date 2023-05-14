@@ -1,0 +1,141 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'androidx.navigation.safeargs.kotlin'
+apply plugin: 'dagger.hilt.android.plugin'
+
+android {
+    compileSdkVersion rootProject.targetSdkVersion
+    buildToolsVersion rootProject.buildToolsVersion
+
+    defaultConfig {
+        applicationId "com.picmewall.picmewall"
+        minSdkVersion rootProject.minSdkVersion
+        targetSdkVersion rootProject.targetSdkVersion
+        versionCode rootProject.versionCode
+        versionName rootProject.versionName
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+    dataBinding {
+        enabled = true
+    }
+    androidExtensions {
+        experimental = true
+    }
+    kapt {
+        generateStubs = true
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin"
+    implementation "androidx.core:core-ktx:$core_ktx"
+    implementation "androidx.appcompat:appcompat:$appcompat"
+
+    // Test dependencies
+    testImplementation "junit:junit:$junit"
+    androidTestImplementation "androidx.test.ext:junit:$atst_junit"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$espresso_core"
+
+    //Constraint Layout
+    implementation "androidx.constraintlayout:constraintlayout:$constraint_layout"
+    implementation "androidx.constraintlayout:constraintlayout-solver:$constraint_layout"
+
+    //Kotlin
+    //implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_jdk8"
+
+    //Legacy support
+    implementation "androidx.legacy:legacy-support-v4:$legacy"
+
+    // Hilt-Dagger
+    implementation "com.google.dagger:hilt-android:$hilt_version"
+    kapt "com.google.dagger:hilt-android-compiler:$hilt_version"
+    implementation "androidx.hilt:hilt-lifecycle-viewmodel:$hiltAndroidXVersion"
+    kapt "androidx.hilt:hilt-compiler:$hiltAndroidXVersion"
+
+    //Room database
+    implementation "androidx.room:room-runtime:$room"
+    implementation "androidx.room:room-ktx:$room"
+    kapt "androidx.room:room-compiler:$room"
+    androidTestImplementation "androidx.room:room-testing:$room"
+
+    ///Lifecycle components
+    //LiveData
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle"
+    //ViewModel
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle"
+    //Lifecycle
+    implementation "androidx.lifecycle:lifecycle-common-java8:$lifecycle"
+    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle"
+    implementation "androidx.lifecycle:lifecycle-common-java8:$lifecycle"
+
+    //Fragment
+    implementation "androidx.fragment:fragment-ktx:$fragment"
+
+    //Navigation
+    implementation "androidx.navigation:navigation-runtime-ktx:$navigation"
+    implementation "androidx.navigation:navigation-fragment-ktx:$navigation"
+    implementation "androidx.navigation:navigation-ui-ktx:$navigation"
+
+    //RecyclerView
+    implementation "androidx.recyclerview:recyclerview:$recyclerview"
+
+    //Material Design
+    implementation "com.google.android.material:material:$material"
+
+    //Gson for Json
+    implementation "com.google.code.gson:gson:$gson"
+
+    //Coroutines
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_core"
+
+    //Retrofit for Network operation
+    implementation "com.squareup.retrofit2:retrofit:$retrofit"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit"
+    implementation "com.squareup.retrofit2:converter-scalars:$retrofit"
+
+    //OkHttpClient3 for network call with retrofit
+    implementation "com.squareup.okhttp3:okhttp:$okhttp3"
+
+    //Paging for long-length list
+    implementation "androidx.paging:paging-runtime-ktx:$paging"
+
+    //For auto permission request
+    implementation "androidx.activity:activity-ktx:$activity_version"
+
+    //Timber Logger
+    implementation "com.jakewharton.timber:timber:$timberVersion"
+
+    //Glide
+    implementation "com.github.bumptech.glide:glide:$glide"
+    kapt "com.github.bumptech.glide:compiler:$glide"
+
+    //Image Cropper
+    implementation "com.theartofdev.edmodo:android-image-cropper:$image_cropper"
+
+    //Multiple image picker
+    implementation 'com.github.AnilFurkanOkcun:UWMediaPicker-Android:1.3.2'
+
+    // Picasso image loading library
+    implementation 'com.squareup.picasso:picasso:2.71828'
+}

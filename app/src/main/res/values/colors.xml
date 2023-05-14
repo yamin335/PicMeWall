@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D42527</color>
+    <color name="colorPrimaryDark">@android:color/white</color>
+    <color name="colorAccent">#333333</color>
+    <color name="colorBackground">#F2F2F2</color>
+    <color name="colorTheme">@color/colorPrimary</color>
+    <color name="colorSliderIndicator">#D8D8D8</color>
+    <color name="colorRatingIndicator">@color/colorPrimary</color>
+    <color name="colorGray">#808080</color>
+    <color name="colorLightGray">#F0F0F0</color>
+    <color name="color1">#AE1C1C</color>
+    <color name="status_bar_color">#E2372C</color>
+</resources>
